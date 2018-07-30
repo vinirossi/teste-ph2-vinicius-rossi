@@ -1,0 +1,78 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+/* CSS Document */
+
+*{
+	margin: 0 auto;
+}
+
+html, body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+/*CSS da Área do Cabeçalho*/
+header{
+	background: url(../img/imagem1.jpg);
+	height: 768px;
+	margin: 0;
+	width: 1366px;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-left: 130px;
+	padding-top: 50px;
+	width: 60%;
+}
+
+.logo{
+	margin: 0;
+}
+
+.menu{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	font-weight: bold;
+	justify-content: flex-end;
+	margin: 0;
+	padding-left: 60%;
+}
+
+.item-lista{
+	color: #FFF;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	list-style: none;
+	height: 20px;
+    text-align: center;
+    width: 137px;
+}
+
+
+
+
+
+
+/*CSS da Área do Footer*/
+.rodape{
+	background-color: #000;
+	height: 500px;
+	width: 100%;
+}
+
+.alinhamento7{
+	color: #FFF;
+	display: flex;
+	flex-direction: row;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 90px;
+	height: 300px;
+}
