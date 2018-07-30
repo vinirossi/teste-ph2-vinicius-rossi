@@ -7,32 +7,24 @@
 }
 
 html, body {
-	display: flex;
-	flex-direction: column;
-	height: 100%;
 	width: 100%;
 }
 
+
 /*CSS da Área do Cabeçalho*/
+
 header{
 	background: url(../img/imagem1.jpg);
-	height: 768px;
-	margin: 0;
-	width: 1366px;
+	height: 890px;
+	width: 100%;
 }
-
 nav{
 	display: flex;
 	flex-direction: row;
 	margin: 0;
 	padding-bottom: 20px;
-	padding-left: 130px;
 	padding-top: 50px;
-	width: 60%;
-}
-
-.logo{
-	margin: 0;
+	width: 100%;
 }
 
 .menu{
@@ -42,7 +34,7 @@ nav{
 	font-weight: bold;
 	justify-content: flex-end;
 	margin: 0;
-	padding-left: 60%;
+	padding-left: 40%;
 }
 
 .item-lista{
@@ -55,24 +47,61 @@ nav{
     width: 137px;
 }
 
-
-
-
-
-
-/*CSS da Área do Footer*/
-.rodape{
-	background-color: #000;
-	height: 500px;
+/*CSS da Área do Features*/
+.features{
+	background-color: #a2ca28;
+	display: flex;
+	flex-direction: column;
+	height: 350px;
+	margin: 0;
 	width: 100%;
 }
 
-.alinhamento7{
-	color: #FFF;
+.alinhamento1{
 	display: flex;
 	flex-direction: row;
-	font-size: 16px;
-	font-family: 'Open Sans', sans-serif;
-	margin-top: 90px;
-	height: 300px;
+	padding-top: 6%;
+	width: 70%;
 }
+
+.titulo-features{
+	color: #FFF;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.paragrafo{
+	color: #FFF;
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 10px;
+}
+
+/*CSS da Área do Sobre*/
+.sobre{
+	background-color: #a2ca28;
+	display: flex;
+	flex-direction: row;
+	height: 420px;
+	margin: 0;
+	width: 100%;
+}
+
+.imagem-sobre{
+	height: 394px;
+	width: 783px;
+}
+.info-sobre{
+	background-color: #fff;
+	height: 30%;
+	width: 30%;
+
+}
+
+
+
+
+
+
+
+
