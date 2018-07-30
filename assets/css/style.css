@@ -296,3 +296,33 @@ nav{
 	padding-top: 30px;
 	text-align: left;
 }
+
+
+/*CSS da Área do Banner*/
+.banner{
+	background: url(../img/imagem6.jpg);
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	height: 724px;
+	width: 100%;
+}
+
+.banner-titulo{
+	color: #fff;
+	font-size: 45px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.paragrafo-banner{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	text-align: center;
+}
+
+}
