@@ -158,11 +158,6 @@ nav{
 	width: 100%;
 }
 
-.alinhamento4{
-	margin: 0;
-	padding-left: 8%;
-}
-
 .imagem-fazer{
 	height: 100%;
 	margin: 0;
@@ -225,6 +220,76 @@ nav{
 }
 
 .paragrafo-summer{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	text-align: left;
+}
+
+/*CSS da Área do Sobre-O que comer*/
+.alinhamento4{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+	padding-left: 1%;
+}
+
+.info-yourself{
+	background-color: #fff;
+	height: 220px;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 54px;
+	width: 730px;
+}
+
+.titulo-yourself{
+	color: #fd6d5a;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.subtitulo-yourself{
+	color: #a2ca28;
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.paragrafo-yourself{
+	color: #656e74;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 30px;
+	text-align: left;
+}
+
+.info-eat{
+	background-color: #a2ca28;
+	height: 220px;
+	margin: 0;
+	padding-left: 30px;
+	padding-top: 54px;
+	width:355px;
+}
+
+.titulo-eat{
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.subtitulo-eat{
+	color: #fff;
+	font-size: 35px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+}
+
+.paragrafo-eat{
 	color: #fff;
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
