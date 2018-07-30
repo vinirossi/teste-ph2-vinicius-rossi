@@ -328,7 +328,7 @@ nav{
 /*CSS da Área do Footer*/
 .rodape{
 	background-color: #000;
-	height: 400px;
+	height: 550px;
 	margin: 0;
 	width: 100%;
 }
@@ -368,4 +368,55 @@ nav{
 
 .icones{
 	margin: 0 10px 0 0;
+}
+
+/*CSS da Área do Subscribe*/
+.formulario{
+	height: 320px;
+	width: 100%;
+}
+
+.newslatter{display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 38px;
+	width: 100%;
+}
+
+.alinhamento-email{
+	margin: 0;
+	padding-left: 1%;
+}
+
+input[type=text]{
+	border: none;
+	border-radius: 8px;
+    padding: 12px;
+    width: 180px;
+}
+input[type=email]{
+	border: none;
+	border-radius: 8px;
+    padding: 12px;
+    width: 250px;
+}
+
+.alinhamento-submit{
+	margin: 0;
+	padding-left: 1%;
+	width: 25%;
+}
+
+input[type=submit] {
+	background-color: #a2ca28;
+	border: none;
+    border-radius: 8px;
+    color: #fff;
+    height: 100%;
+    padding: 12px;
+    width: 38%;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
 }
